@@ -1,5 +1,9 @@
 import './App.css';
 import * as Icons from 'react-icons/bs';
+import logo from './img/t8h-logo-high.png';
+import profile_short from './img/bg-photo2.jpg';
+import profile_logo from './img/t8h-logo2.png';
+import profile_short2 from './img/profile-img-short.jpg';
 
 function App() {
   return (
@@ -7,7 +11,7 @@ function App() {
       <header id="header">
         <div class="d-flex flex-column">
           <div class="profile">
-            <img src="profile-img-short.jpg" alt="" class="img-fluid rounded-circle"></img>
+            <img src={profile_short2} alt="" class="img-fluid rounded-circle"></img>
             <h1 class="text-light"><a href="index.html">Tushar Hawaldar</a></h1>
             <div class="social-links mt-3 text-center">
               <a href="https://www.linkedin.com/in/tushar-hawaldar-334a5175/" class="linkedin" target="_blank" rel="noreferrer"><Icons.BsLinkedin /></a>
@@ -31,14 +35,9 @@ function App() {
       </header>
 
       <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-        <div class="row">
-          <div class="hero-container col-lg-7" data-aos="fade-in">
-            <h1>Tushar Hawaldar</h1>
-            <p>Software Enginner</p>
-          </div>
-          <div class="logo-img col-lg-5">
-          <img src="t8h-logo-high.png" class="img-fluid" alt="" />
-          </div>
+        <div class="hero-container" data-aos="fade-in">
+          <h1>Tushar Hawaldar</h1>
+          <p>Cloud Engineer &amp; Full Stack Developer</p>
         </div>
       </section>
 
@@ -48,19 +47,20 @@ function App() {
             <div class="section-title">
               <h2>About</h2>
               <p>
-                A passionate technologist who loves to design and build solutions to the complex problems to create positive impact and results. I have total 8+ yrs of experience in the web and cloud development.
-                Started my carrier back in July 2014, I worked for almost 5 yrs as a full stack web developer in Ruby on Rails. And then I shifted my area of interest to Cloud as I was very curious about it.
-                And for last almost 4 yrs I have enjoyed my jounrney of cloud(AWS, Azure). I am always ready for any challenges coming my way, and I believe discipline & ownership helps make things happen for me.
+                A passionate technologist who loves to design and build solutions to the complex problems to deliver results and create positive impact. I have total of 8+ years of experience in the web and cloud software development.
+                Started my carrier back in July 2014, I worked for almost 5 years as a full stack web developer in Ruby on Rails and many other tools and technologies. Then I shifted my area of work to Cloud as I was very curious about it,
+                where I got to work on designing, developing, & maintaining cloud infrastructure and services on a high scale, for last almost 4 years I have enjoyed this jounrney of Cloud. Overall, I have been fortunate enough to be able
+                to learn and contribute on multiple areas of software engineering, and I am excited for every opportunity coming my way.
               </p>
             </div>
             <div class="row">
               <div class="col-lg-4" data-aos="fade-right">
-                <img src="soft-eng2.png" class="img-fluid" alt="" />
+                <img src={logo} class="img-fluid" alt="" />
               </div>
               <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                <h3>Cloud Enginner &amp; Full Stack Developer.</h3>
+                <h3>Personal</h3>
                 <p class="fst-italic">
-                Proficient with system design, web & cloud development, production release & management, communication etc. Also have experience of leading teams to success.
+                  I really belive in the power of being disciplined and focus on process, so I choose that over anything. So I try to follow simple routine of excersice, rest, family, work, etc. and that helps me.
                 </p>
                 <div class="row">
                   <div class="col-lg-6">
@@ -79,8 +79,8 @@ function App() {
                   </div>
                 </div>
                 <p>
-                  As a full stack developer, I have designed and developed features/applications in multiple domains including finance, HRTech, eLearning, etc. and have shown the ability to handle end-to-end execution of software development.
-                  As Cloud enginner, I have excelled my contributions in VPC, Networking, and most of the AWS services.
+                  I feel taking good care of health is the best thing I can do to myself as well as the universe. I like making connections, to talk with people, listen to what they have to say, and learn with each experience.
+                  One of my favourite working principle is "Doing is Winning", and I live by that.
                 </p>
               </div>
             </div>
@@ -92,7 +92,7 @@ function App() {
 
             <div class="section-title">
               <h2>Facts</h2>
-              <p>I have always enjoyed this journey of building strong professional network while working with multiple orgnizations and teams on wide variety of projects/challeneges in various domains. And I am always excited for whats coming next!</p>
+              <p>I have always enjoyed this journey of learning skills, building strong professional network, make impact to each projects, etc. while working with multiple orgnizations and teams on wide variety of projects/challeneges in various domains. And I am always excited for whats coming next!</p>
             </div>
 
             <div class="row no-gutters">
@@ -289,7 +289,7 @@ function App() {
             <div class="section-title">
               <h2>Services</h2>
               <p>
-                I believe in taking end-to-end ownership of things to create the best results. I have vast experience in various phases of software development and I like to provide the services in those areas.
+                I believe in making impact and taking end-to-end ownership of things to create the best results for customers success. I have vast experience in various phases of software development and I like to provide the services in those areas.
               </p>
             </div>
 
@@ -418,7 +418,7 @@ function App() {
             <div class="section-title">
               <h2>Contact</h2>
               <p>
-                I love to connect and communicate with people about ideas, technology, and other works aspects. If you have any thougths, please feel free to connect.
+                If you want to talk on ideas, technology, or anything else. Please feel free to connect.
               </p>
             </div>
 
