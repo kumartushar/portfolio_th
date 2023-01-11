@@ -1,8 +1,6 @@
 import './App.css';
 import * as Icons from 'react-icons/bs';
 import logo from './img/t8h-logo-high.png';
-import profile_short from './img/bg-photo2.jpg';
-import profile_logo from './img/t8h-logo2.png';
 import profile_short2 from './img/profile-img-short.jpg';
 
 function App() {
@@ -24,10 +22,10 @@ function App() {
           <nav id="navbar" class="nav-menu navbar">
             <ul>
               <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-              <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-              <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+              <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Who I'm</span></a></li>
+              <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>My Journey</span></a></li>
               <li><a href="#blogs" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Blogs</span></a></li>
-              <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+              <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>What I offer</span></a></li>
               <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
             </ul>
           </nav>
@@ -36,6 +34,7 @@ function App() {
 
       <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
         <div class="hero-container" data-aos="fade-in">
+          <p>Hey, I'm</p>
           <h1>Tushar Hawaldar</h1>
           <p>Cloud Engineer &amp; Full Stack Developer</p>
         </div>
@@ -45,12 +44,12 @@ function App() {
         <section id="about" class="about">
           <div class="container">
             <div class="section-title">
-              <h2>About</h2>
+              <h2>Who I am</h2>
               <p>
-                A passionate technologist who loves to design and build solutions to the complex problems to deliver results and create positive impact. I have total of 8+ years of experience in the web and cloud software development.
-                Started my carrier back in July 2014, I worked for almost 5 years as a full stack web developer in Ruby on Rails and many other tools and technologies. Then I shifted my area of work to Cloud as I was very curious about it,
-                where I got to work on designing, developing, & maintaining cloud infrastructure and services on a high scale, for last almost 4 years I have enjoyed this jounrney of Cloud. Overall, I have been fortunate enough to be able
-                to learn and contribute on multiple areas of software engineering, and I am excited for every opportunity coming my way.
+                A passionate technologist who loves to design and build solutions to the complex problems to deliver high quality results and create positive impact. I have total of 8+ years of experience in the web and cloud software development.
+                I started my carrier back in July 2014, I worked for almost 5 years as a full stack web developer in Ruby on Rails and various other tools and technologies.
+                Then, I shifted my area of work to Cloud as I was very curious about it. And for last almost 4 years this has been a great jounrney of Cloud, where I got to work on designing, developing, & maintaining cloud infrastructure and services on a high scale. 
+                Overall, I have been fortunate enough to be able to learn and contribute on multiple areas of software engineering, and I am always excited for whats coming next!
               </p>
             </div>
             <div class="row">
@@ -60,7 +59,7 @@ function App() {
               <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>Personal</h3>
                 <p class="fst-italic">
-                  I really belive in the power of being disciplined and focus on process, so I choose that over anything. So I try to follow simple routine of excersice, rest, family, work, etc. and that helps me.
+                  I really belive in the power of being disciplined and focus on process, and I choose that over anything. So I try to follow simple routine of exercise, work, family time, rest, etc.
                 </p>
                 <div class="row">
                   <div class="col-lg-6">
@@ -79,7 +78,7 @@ function App() {
                   </div>
                 </div>
                 <p>
-                  I feel taking good care of health is the best thing I can do to myself as well as the universe. I like making connections, to talk with people, listen to what they have to say, and learn with each experience.
+                  I like making connections, to talk with people, and learn from each experience.
                   One of my favourite working principle is "Doing is Winning", and I live by that.
                 </p>
               </div>
@@ -92,7 +91,7 @@ function App() {
 
             <div class="section-title">
               <h2>Facts</h2>
-              <p>I have always enjoyed this journey of learning skills, building strong professional network, make impact to each projects, etc. while working with multiple orgnizations and teams on wide variety of projects/challeneges in various domains. And I am always excited for whats coming next!</p>
+              <p>I have always enjoyed this journey of learning skills, building strong professional network, make impact to each projects, etc. while working with multiple orgnizations and teams on wide variety of projects/challeneges in various domains.</p>
             </div>
 
             <div class="row no-gutters">
@@ -144,8 +143,7 @@ function App() {
             <div class="section-title">
               <h2>Skills</h2>
               <p>
-                I strongly believe in being curious & learning as much as I can by trying, doing and from others, and that has helped me to build my skills in the journey so far. I believe that there is still a lot to learn and do,
-                and I am always exicted to learn and work on something challenging, and I love that the most.
+                I strongly believe in being curious & learning as much as I can by trying, doing and from others, and that has helped me to build my skills in the journey so far. And I believe that there is always a lot to learn and do.
               </p>
             </div>
 
@@ -210,7 +208,7 @@ function App() {
           <div class="container">
 
             <div class="section-title">
-              <h2>Resume</h2>
+              <h2>My Journey</h2>
             </div>
 
             <div class="row">
@@ -234,16 +232,15 @@ function App() {
                   <h5>2010 - 2014</h5>
                   <p><em>University of Pune</em></p>
                   <p>
-                    I have completed my graduation from university of Pune with "First class with distinction" and an average score of 71.4%, which is considered to be top 1% of the students in entire university.
-                    I always enjoyed doing deep analysis and teaching people about my learnings, also I loved to do presentations to build by communication and presentations skills.
-                    I used to actively participate in the annual technical/non-technical events.
+                    I have completed my graduation from university of Pune with "First class with distinction" and an average score of 71.4%, which is considered to be amongst top 1% of the students in the university.
+                    I always enjoyed learning, and teaching people during this time. Also, I focused a lot on communication and presentation.
                   </p>
                 </div>
                 <div class="resume-item">
                   <h4>Higher Secondary Certificate</h4>
                   <h5>2008 - 2010</h5>
                   <p><em>Shri Shivaji University</em></p>
-                  <p>The place where I learnt and build my interest for mathematics and engineering.</p>
+                  <p>The time where I learnt basics and built my interest for engineering.</p>
                 </div>
               </div>
               <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -287,9 +284,9 @@ function App() {
           <div class="container">
 
             <div class="section-title">
-              <h2>Services</h2>
+              <h2>What I Offer</h2>
               <p>
-                I believe in making impact and taking end-to-end ownership of things to create the best results for customers success. I have vast experience in various phases of software development and I like to provide the services in those areas.
+                I believe in making impact and taking end-to-end ownership of things to create the best results for customers success. I have vast experience in various phases of software development.
               </p>
             </div>
 
@@ -317,7 +314,7 @@ function App() {
               <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon"><i class="bi bi-brightness-high"></i></div>
                 <h4 class="title"><a href="">Project Management</a></h4>
-                <p class="description">Leading the teams to deliver the effective & efficient results.</p>
+                <p class="description">Building the teams to deliver the effective & efficient results.</p>
               </div>
               <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                 <div class="icon"><i class="bi bi-calendar4-week"></i></div>
@@ -418,7 +415,7 @@ function App() {
             <div class="section-title">
               <h2>Contact</h2>
               <p>
-                If you want to talk on ideas, technology, or anything else. Please feel free to connect.
+                If you like to talk on ideas, technology, or anything else. Please feel free to say "Hi".
               </p>
             </div>
 
