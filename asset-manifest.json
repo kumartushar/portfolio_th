@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio_th/static/css/main.b4594925.css",
-    "main.js": "/portfolio_th/static/js/main.bba40a69.js",
+    "main.css": "/portfolio_th/static/css/main.564f833e.css",
+    "main.js": "/portfolio_th/static/js/main.e5fdd764.js",
     "static/js/787.cd7d411c.chunk.js": "/portfolio_th/static/js/787.cd7d411c.chunk.js",
     "static/media/bg-photo2.jpg": "/portfolio_th/static/media/bg-photo2.6112e7422cd22cee057d.jpg",
     "static/media/profile-img-short.jpg": "/portfolio_th/static/media/profile-img-short.6d68702d4d6360223d83.jpg",
-    "static/media/t8h-logo2.png": "/portfolio_th/static/media/t8h-logo2.16e99b48cb42017e4dfe.png",
     "static/media/bootstrap-icons.woff?": "/portfolio_th/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/t8h-logo-high.png": "/portfolio_th/static/media/t8h-logo-high.b5115e9f33dade44458f.png",
     "static/media/bootstrap-icons.woff2?": "/portfolio_th/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "index.html": "/portfolio_th/index.html",
-    "main.b4594925.css.map": "/portfolio_th/static/css/main.b4594925.css.map",
-    "main.bba40a69.js.map": "/portfolio_th/static/js/main.bba40a69.js.map",
+    "main.564f833e.css.map": "/portfolio_th/static/css/main.564f833e.css.map",
+    "main.e5fdd764.js.map": "/portfolio_th/static/js/main.e5fdd764.js.map",
     "787.cd7d411c.chunk.js.map": "/portfolio_th/static/js/787.cd7d411c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4594925.css",
-    "static/js/main.bba40a69.js"
+    "static/css/main.564f833e.css",
+    "static/js/main.e5fdd764.js"
   ]
 }
