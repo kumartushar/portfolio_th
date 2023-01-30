@@ -24,8 +24,8 @@ function App() {
               <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
               <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Who I'm</span></a></li>
               <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>My Journey</span></a></li>
-              <li><a href="#blogs" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Blogs</span></a></li>
-              <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>What I offer</span></a></li>
+              <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>What I do</span></a></li>
+              {/* <li><a href="#blogs" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Blogs</span></a></li> */}
               <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
             </ul>
           </nav>
@@ -284,7 +284,7 @@ function App() {
           <div class="container">
 
             <div class="section-title">
-              <h2>What I Offer</h2>
+              <h2>What I do</h2>
               <p>
                 I believe in making impact and taking end-to-end ownership of things to create the best results for customers success. I have vast experience in various phases of software development.
               </p>
